@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\identity_trial3.props" />
+</Project>

@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "identity_trial3.Controllers.CorreoRestablecerPasswordController",
+    "Method": "EnvioCodigoRestablecer",
+    "RelativePath": "api/CorreoRestablecerPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "envioCodigoRestablecer",
+        "Type": "identity_trial3.Models.RestablecerPassword.EnvioCodigoRestablecer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "identity_trial3.Controllers.LoginController",
+    "Method": "InicioSesionUsuario",
+    "RelativePath": "api/Login/InicioSesionUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "identity_trial3.Models.UsuarioInicioSesion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "identity_trial3.Controllers.LoginController",
+    "Method": "RegistroUsuario",
+    "RelativePath": "api/Login/RegistroUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "identity_trial3.Models.UsuarioRegistro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "identity_trial3.Controllers.LoginController",
+    "Method": "VerificarJWT",
+    "RelativePath": "api/Login/VerificarToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

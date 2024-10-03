@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "identity_trial3", "identity_trial3\identity_trial3.csproj", "{3A8C9080-87EF-4244-99AA-7404A53003AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A8C9080-87EF-4244-99AA-7404A53003AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8C9080-87EF-4244-99AA-7404A53003AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8C9080-87EF-4244-99AA-7404A53003AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8C9080-87EF-4244-99AA-7404A53003AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D701ED93-F169-4C98-A3E6-6E90159072E8}
+	EndGlobalSection
+EndGlobal
